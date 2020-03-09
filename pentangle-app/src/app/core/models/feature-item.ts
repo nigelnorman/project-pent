@@ -1,6 +1,6 @@
-export interface EntryItemViewModel {
+export interface FeatureItem {
   name: string;
-  linkUri: string;
   description: string;
   image: string;
+  linkUri: string;
 }
