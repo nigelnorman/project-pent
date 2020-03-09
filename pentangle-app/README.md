@@ -1,6 +1,10 @@
 # PentangleApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
+## About
+
+This is the source code for <https://nigelnorman.me>
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3. It has since been upgraded to version 9.0.5
 
 ## Development server
 
