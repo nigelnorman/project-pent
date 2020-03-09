@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 import { ClarityModule } from '@clr/angular';
 
 import { AppComponent } from './app.component';
-import { BroadcasterService } from './core/broadcaster.service';
+import { BroadcasterService } from './core/services/broadcaster.service';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
