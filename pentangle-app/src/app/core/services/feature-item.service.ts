@@ -14,7 +14,7 @@ export class FeatureItemService {
     this.featuredItems.push(
       {
         name: 'BAC App - Google Play',
-        description: 'Android application written using Xamarin',
+        description: 'Android application written in C# using Xamarin; calculates your rough blood alcohol content using input data.',
         linkUri: 'https://play.google.com/store/apps/details?id=com.baccalculator',
         image: 'https://lh3.googleusercontent.com/GfKBYy8JHNEomLhYIZaFU0v5u_kidOiUWwJKRC7iPmW8P1T4g_avHUWjI_zS34noiMBm=s180-rw'
       } as FeatureItem
