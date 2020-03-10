@@ -1,0 +1,28 @@
+<h3>Projects</h3>
+<br />
+<p>This site is not only a personal project, but it acts as a portfolio to showcase my other projects and interests.</p>
+<p></p>
+<br />
+
+<div class="clr-row" *ngFor="let item of featuredItems">
+  <div class="card">
+    <div class="card-header">
+      {{item.name}}
+    </div>
+    <div class="card-block">
+      <div class="card-title">
+      </div>
+      <div class="card-text">
+        <div class="clr-row">
+          <div class="clr-col-2 centered">
+            <img style="width: 150px; height: 150px;" src="{{item.image}}">
+          </div>
+          <div class="clr-col-10">
+            <p>{{item.description}}</p>
+            <a target="_blank" [attr.href]="item.linkUri">{{item.linkUri}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

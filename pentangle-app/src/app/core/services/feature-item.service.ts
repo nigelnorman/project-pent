@@ -24,4 +24,22 @@ export class FeatureItemService {
   public getFeaturedItems = (): FeatureItem[] => {
     return this.featuredItems;
   }
+
+  public getFeaturedArtworkItems = (): FeatureItem[] => {
+    let featuredArt = [] as FeatureItem[];
+    featuredArt.push({
+      image: 'https://imgur.com/s3uaHBY.jpg'
+    } as FeatureItem);    
+    featuredArt.push({
+      image: 'https://imgur.com/ERiRVGf.jpg'
+    } as FeatureItem);    
+    featuredArt.push({
+      image: 'https://imgur.com/m78AiiF.jpg'
+    } as FeatureItem);    
+    featuredArt.push({
+      image: 'https://i.imgur.com/h4w7JEr.jpg'
+    } as FeatureItem);
+
+    return featuredArt;
+  }
 }

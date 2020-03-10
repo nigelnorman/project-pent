@@ -9,12 +9,16 @@ import { BroadcasterService } from './core/services/broadcaster.service';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app.routing.module';
+import { ProjectsComponent } from './featured/projects/projects.component';
+import { ArtworkComponent } from './featured/artwork/artwork.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutComponent,
     HomeComponent,
+    ProjectsComponent,
+    ArtworkComponent,
   ],
   imports: [
     BrowserModule,

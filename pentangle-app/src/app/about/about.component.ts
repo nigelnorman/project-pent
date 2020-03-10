@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FeatureItem } from '../core/models/feature-item';
-import { FeatureItemService } from '../core/services/feature-item.service';
 
 @Component({
   selector: 'about',
@@ -9,12 +7,9 @@ import { FeatureItemService } from '../core/services/feature-item.service';
 })
 export class AboutComponent implements OnInit {
 
-  public featuredItems: FeatureItem[];
-
-  constructor(private readonly featureItemService: FeatureItemService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.featuredItems = this.featureItemService.getFeaturedItems();
   }
 
 }

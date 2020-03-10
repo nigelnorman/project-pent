@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "pentangle-app"
+  "defaultProject": "pentangle-app",
+  "cli": {
+    "analytics": "fc4c2c68-7d03-4c87-93ef-6591f26ce954"
+  }
 }

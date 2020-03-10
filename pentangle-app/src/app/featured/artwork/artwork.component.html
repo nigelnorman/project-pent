@@ -1,0 +1,22 @@
+<h3>Artwork</h3>
+<br />
+<p>I can't say that I'm very much of an artist or a photographer, but I very much have a passion for both!</p>
+<p>I like to take images and create glitch-art out of them; this is a sample of some of the images I have made</p>
+<br />
+
+<div class="clr-row">
+  <div class="clr-col-2" *ngFor="let item of featuredItems">
+    <div class="card">
+      <div class="card-block">
+        <div class="card-text">
+          <div class="clr-row">
+            <div class="clr-col-2 centered">
+              <img style="width: 250px; height: 250px;" src="{{item.image}}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <hr />
+</div>
